@@ -1,0 +1,37 @@
+# macOS
+.DS_Store
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Packaging / build
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Local tooling / editor
+.vscode/
+.idea/
+
+# Project data artifacts
+triage_dataset/
+*.mp4
+*.avi
+*.mov
+*.npy
+*.npz
+
+# Logs
+*.log
